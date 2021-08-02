@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
- * @Date: 2021-07-30 16:30:22
- * @LastEditTime: 2021-07-30 16:57:43
+ * @Date: 2021-08-02 15:54:13
+ * @LastEditTime: 2021-08-02 15:55:39
  * @LastEditors: Stevie
  * @Description:
  */
@@ -12,7 +12,7 @@ const devConfig = {
   mode: 'development',
   devServer: {
     host: 'localhost',
-    port: 7300,
+    port: 8020,
     hot: true,
     compress: true,
     stats: 'errors-only',
