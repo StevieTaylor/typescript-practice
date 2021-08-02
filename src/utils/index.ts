@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-08-02 15:54:13
- * @LastEditTime: 2021-08-02 15:56:56
+ * @LastEditTime: 2021-08-02 16:01:48
  * @LastEditors: Stevie
  * @Description: 
  */
@@ -30,4 +30,8 @@ export function deepCopy(target: any): any {
     }
   }
   return result
+}
+
+export function p(...args: any[]): void {
+  console.log(...args);
 }
