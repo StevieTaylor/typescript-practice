@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-07-30 17:09:54
- * @LastEditTime: 2021-07-30 17:20:27
+ * @LastEditTime: 2021-08-02 21:49:46
  * @LastEditors: Stevie
  * @Description:
  */
@@ -19,12 +19,12 @@ export interface IChapterMap {
 }
 
 export const chapterMap: IChapterMap = {
-  demo: {
-    chapterId: 'Demo',
-    name: 'demo',
+  utilityTypes: {
+    chapterId: 'UtilityTypes',
+    name: 'Utility Types',
     display: true,
     modules: {
-      demo: '范例'
+      objectUtility: '对象工具'
     }
   }
 }
