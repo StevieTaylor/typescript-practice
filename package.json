@@ -1,0 +1,46 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development webpack serve --config ./build/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.prod.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevieTaylor/typescript-template.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "StevieTaylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevieTaylor/typescript-template/issues"
+  },
+  "homepage": "https://github.com/StevieTaylor/typescript-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "dev-server": "^0.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
