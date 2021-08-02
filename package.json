@@ -1,5 +1,5 @@
 {
-  "name": "typescript-template",
+  "name": "typescript-practice",
   "version": "1.0.0",
   "description": "typescript",
   "main": "index.js",
@@ -14,7 +14,8 @@
     "url": "git+https://github.com/StevieTaylor/typescript-template.git"
   },
   "keywords": [
-    "typescript"
+    "typescript",
+    "version 4.3.5"
   ],
   "author": "StevieTaylor",
   "license": "MIT",
