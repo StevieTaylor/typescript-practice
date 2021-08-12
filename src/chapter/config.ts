@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-07-30 17:09:54
- * @LastEditTime: 2021-08-02 21:49:46
+ * @LastEditTime: 2021-08-12 15:21:06
  * @LastEditors: Stevie
  * @Description:
  */
@@ -24,7 +24,10 @@ export const chapterMap: IChapterMap = {
     name: 'Utility Types',
     display: true,
     modules: {
-      objectUtility: '对象工具'
+      prepend: '前置知识',
+      objectUtility: '对象工具类型',
+      setUtility: '集合工具类型',
+      functionUtility: '函数工具类型'
     }
   }
 }
